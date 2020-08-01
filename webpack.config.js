@@ -3,15 +3,21 @@ const path = require('path')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 
+
+const getPublicPath = env => {
+  return env === 'development' ? '/' : './'
+}
 
 module.exports = env => {
   const config = {
     mode: env,
     entry: './src/index.js',
     output:{
-        filename: 'bundle.js',
-        path: path.resolve(__dirname,'dist')
+        filename: '[name].[chunkhash:8].js',
+        path: path.resolve(__dirname,'dist'),
+        publicPath: getPublicPath(env)
     },
     devServer: {
       contentBase: path.resolve(__dirname, "dist"),
@@ -22,10 +28,11 @@ module.exports = env => {
     module:{
       rules: [
         {
-          test: /\.css$/,
+          test: /\.(c|le)ss$/,
           use: [
             MiniCssExtractPlugin.loader,
-            'css-loader'
+            'css-loader',
+            'less-loader'
           ]
         },
         {
@@ -43,6 +50,11 @@ module.exports = env => {
         }
       ]
     },
+    optimization: {
+      minimizer: [
+        new OptimizeCSSAssetsPlugin()
+      ],
+    },
     plugins: [
       new webpack.ProgressPlugin(),
       new CleanWebpackPlugin(),
@@ -52,7 +64,7 @@ module.exports = env => {
         filename: 'index.html',
       }),
       new MiniCssExtractPlugin({
-        filename: '[name].css',
+        filename: '[name].[chunkhash:8].css',
       }),
     ]
   }
