@@ -1,18 +1,19 @@
+
 ## 个人信息
 
-* 姓        名：王泰东
-* 出生年月：1995.02
-* 性        别：男
+* 姓        名：xxx
+* 出生年月：cccc.cc.cc
+* 性                    别：男
 * 名        族：汉族
-* 毕业院校：中国石油大学（华东）
+* 毕业院校：xxx
 * 学        历：本科
 * 求职意向：前端开发工程师
-* 电        话：18560684220
+* 电        话： xxxxxxxx
 * 邮        箱：wstreet7@outlook.com
 
 ## 教育背景
 
-2014.09-2018.06             中国石油大学（华东）               应用物理学（本科）
+2014.09-2018.06             xxxxxxxxxxxx                xxxxxxxxxxxx 
 
 ## 开源项目
 
@@ -82,3 +83,4 @@ xxxx：xxxxxxxxxxxxxxxxx
 
 ## 自我评价
 xxxxxxxxxxxxxxxxx
+>[info]

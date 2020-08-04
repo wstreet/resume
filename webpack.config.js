@@ -39,7 +39,7 @@ module.exports = env => {
           test: /\.md$/,
           use: [
             'html-loader',
-            'markdown-loader'
+            './markdown-loader'
           ]
         },
         {
