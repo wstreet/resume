@@ -1,0 +1,101 @@
+
+@import './variables.less';
+
+
+body {
+  color: @bodyColor;
+  line-height: @lineHight;
+  font-family: Helvetica Neue,Helvetica,Arial,Microsoft YaHei,sans-serif;
+  background-color: @bgColor;
+  padding-top: 5px;
+}
+
+#root {
+  margin: 0 auto;
+  width: 860px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  position: relative;
+  z-index: 1;
+  width: 24%;
+  min-width: 100px;
+  margin: 0 auto;
+  padding: 4px 10px;
+  border-radius: 32px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #eee;
+}
+
+h2::before {
+  content: '';
+  display: inline-block;
+  height: 0;
+  width: 80%;
+  border-top: 1.5px solid @borderColor;
+  position: absolute;
+  right: 100%;
+  top: 50%;
+}
+
+h2::after {
+  content: '';
+  display: inline-block;
+  height: 0;
+  width: 80%;
+  border-top: 1.5px solid @borderColor;
+  position: absolute;
+  left: 100%;
+  top: 50%;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+h3, h4, p, ol, ul {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+a {
+  color: @linkColor;
+}
+
+
+// custom block
+.custom-block.danger, .custom-block.tip, .custom-block.warning {
+  padding: .1rem 1.5rem;
+  border-left-width: .5rem;
+  border-left-style: solid;
+  margin: 1rem 0;
+}
+
+.custom-block {
+  &.tip {
+    background-color: @tipBgColor;
+    border-color: @tipBdColor ;
+    color: @tipColor;
+  }
+  &.warning {
+    background-color: @warningBgColor;
+    border-color: @warningBdColor ;
+    color: @warningColor;
+  }
+  &.danger {
+    background-color: @dangerBgColor;
+    border-color: @dangerBdColor ;
+    color: @dangerColor;
+  }
+  &.information {
+    // height: 50px;
+    background-color: @linkColor;
+    color: #333;
+  }
+}

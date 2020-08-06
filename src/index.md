@@ -1,4 +1,5 @@
-
+# 步行街的简历
+::: information
 ## 个人信息
 
 * 姓        名：xxx
@@ -10,7 +11,7 @@
 * 求职意向：前端开发工程师
 * 电        话： xxxxxxxx
 * 邮        箱：wstreet7@outlook.com
-
+:::
 ## 教育背景
 
 2014.09-2018.06             xxxxxxxxxxxx                xxxxxxxxxxxx 
@@ -83,4 +84,14 @@ xxxx：xxxxxxxxxxxxxxxxx
 
 ## 自我评价
 xxxxxxxxxxxxxxxxx
->[info]
+::: tip 
+这是一个提示
+:::
+
+::: warning 
+这是一个提示
+:::
+
+::: danger 
+这是一个提示
+:::

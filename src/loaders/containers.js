@@ -5,12 +5,8 @@ module.exports = md => {
     .use(...createContainer('tip', 'TIP'))
     .use(...createContainer('warning', 'WARNING'))
     .use(...createContainer('danger', 'WARNING'))
-    // explicitly escape Vue syntax
-    .use(container, 'v-pre', {
-      render: (tokens, idx) => tokens[idx].nesting === 1
-        ? `<div v-pre>\n`
-        : `</div>\n`
-    })
+    .use(...createContainer('information', 'Information'))
+    
 }
 
 function createContainer (klass, defaultTitle) {

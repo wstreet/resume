@@ -39,7 +39,7 @@ module.exports = env => {
           test: /\.md$/,
           use: [
             'html-loader',
-            './markdown-loader'
+            './src/loaders/markdown-loader'
           ]
         },
         {
@@ -56,7 +56,7 @@ module.exports = env => {
       ],
     },
     plugins: [
-      new webpack.ProgressPlugin(),
+      // new webpack.ProgressPlugin(),
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
         title: 'My Resume',
