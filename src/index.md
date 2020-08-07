@@ -1,6 +1,8 @@
-# 步行街的简历
-::: information
+# 简历模板
+:::: information
+::: tip
 ## 个人信息
+:::
 
 * 姓        名：xxx
 * 出生年月：cccc.cc.cc
@@ -11,18 +13,24 @@
 * 求职意向：前端开发工程师
 * 电        话： xxxxxxxx
 * 邮        箱：wstreet7@outlook.com
-:::
+::::
+::: tip
 ## 教育背景
+:::
 
 2014.09-2018.06             xxxxxxxxxxxx                xxxxxxxxxxxx 
 
+::: tip
 ## 开源项目
+:::
 
 * Github数据大屏: [https://wstreet7.gitee.io/x-screen](https://wstreet7.gitee.io/x-screen/#/)
 * Blog：[https://wstreet.vip](https://wstreet.vip/)
 * Github： [https://github.com/wstreet](https://github.com/wstreet)
 
-## **专业技能**
+::: tip
+## 专业技能
+:::
 
 * 熟练掌握HTML(5)，CSS(3)等网页制作技术，熟悉常用的页面布局
 * 熟练掌握原生Javascript编程、Ajax、DOM等技术
@@ -33,7 +41,9 @@
 * 掌握Canvas、SVG基本知识，熟悉G6、D3等可视化库的使用
 * 了解Nodejs和Mysql等服务的技术和小程序开发
 
+::: tip
 ## 工作经历
+:::
 
 **2019.06-至今                 xxxxxxxxxxxxxxxxx                     高级前端开发**
 
@@ -48,7 +58,9 @@
 * xxxxxxxxxxxxxxxxx
 * xxxxxxxxxxxxxxxxx
 
+::: tip
 ## 项目经验
+:::
 
 **2019.06-至今                   xxxxxxxxxxxxxxxxx          高级前端开发**
 
@@ -82,16 +94,7 @@ xxxx：xxxxxxxxxxxxxxxxx
 #### 工作难点
 * xxxxxxxxxxxxxxxxx
 
+::: tip
 ## 自我评价
+:::
 xxxxxxxxxxxxxxxxx
-::: tip 
-这是一个提示
-:::
-
-::: warning 
-这是一个提示
-:::
-
-::: danger 
-这是一个提示
-:::

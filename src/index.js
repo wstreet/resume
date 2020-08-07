@@ -1,9 +1,21 @@
 import index from './index.md'
-// import './theme.css'
 import './themes/resume.less'
 
+
+const renderDownload = (root) => {
+  const box = document.createElement('div')
+  box.className = 'download iconfont icon-download'
+  box.onclick = function() {
+    window.print()
+  }
+  root.appendChild(box)
+}
+
+
 const render = (container, html) => {
-  document.querySelector(container).innerHTML = html
+  const root = document.querySelector(container)
+  root.innerHTML = html
+  renderDownload(root)
 }
 
 render('#root', index)
