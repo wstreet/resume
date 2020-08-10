@@ -3,6 +3,7 @@ const container = require('markdown-it-container')
 module.exports = md => {
   md
     .use(...createContainer('tip'))
+    .use(...createContainer('info'))
     .use(...createContainer('warning'))
     .use(...createContainer('danger'))
     .use(...createContainer('information'))

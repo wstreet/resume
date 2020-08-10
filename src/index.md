@@ -1,26 +1,29 @@
-# 简历模板
+# 个人简历
+
 :::: information
-::: tip
+::: info
 ## 个人信息
 :::
 
-* 姓        名：xxx
-* 出生年月：cccc.cc.cc
-* 性                    别：男
-* 名        族：汉族
-* 毕业院校：xxx
-* 学        历：本科
+* 姓       名：王泰东
+* 出生年月：1995.02
+* 性       别：男
+* 名       族：汉族
+* 毕业院校：中国石油大学（华东）
+* 学       历：本科
 * 求职意向：前端开发工程师
-* 电        话： xxxxxxxx
-* 邮        箱：wstreet7@outlook.com
+* 电       话：18560684220
+* 邮       箱：wstreet7@outlook.com
+* 工作地点：杭州、成都
 ::::
-::: tip
+
+::: info
 ## 教育背景
 :::
 
-2014.09-2018.06             xxxxxxxxxxxx                xxxxxxxxxxxx 
+2014.09-2018.06             中国石油大学（华东）               应用物理学（本科）
 
-::: tip
+::: info
 ## 开源项目
 :::
 
@@ -28,73 +31,72 @@
 * Blog：[https://wstreet.vip](https://wstreet.vip/)
 * Github： [https://github.com/wstreet](https://github.com/wstreet)
 
-::: tip
+::: info
 ## 专业技能
 :::
 
 * 熟练掌握HTML(5)，CSS(3)等网页制作技术，熟悉常用的页面布局
 * 熟练掌握原生Javascript编程、Ajax、DOM等技术
 * 熟练掌握React技术栈，包括React、Redux、Redux-thunk等，熟悉部分原理以及Redux源码
-* 熟练掌握webpack打包工具，可手动置项配目脚手架，熟悉webpack打包原理
+* 熟练掌握webpack打包工具，可手动置项配目脚手架
 * 熟练使用Git工具进行多人、多分支协同开发
-* 熟悉浏览器渲染原理，了解Http协议
-* 掌握Canvas、SVG基本知识，熟悉G6、D3等可视化库的使用
+* 熟悉浏览器渲染原理，了解Canvas，WebGL相关知识
 * 了解Nodejs和Mysql等服务的技术和小程序开发
 
-::: tip
+::: info
 ## 工作经历
 :::
 
-**2019.06-至今                 xxxxxxxxxxxxxxxxx                     高级前端开发**
+**2019.06-至今                   杭州博彦信息技术有限公司 (外包阿里)            高级前端开发**
 
-* xxxxxxxxxxxxxxxxx
-* xxxxxxxxxxxxxxxxx
-* xxxxxxxxxxxxxxxxx
+* 负责项目日常开发工作，参与项目需求评审，设计项目前端架构
+* 项目技术难点突破，承担核心功能开发
+* 抽象公共组件并进行封装，减少重复性工作，提高开发效率
 
-**2018.06-2019.06             xxxxxxxxxxxxxxxxx                       前端开发**
+**2018.06-2019.06             北京辰森世纪科技有限股份公司                       前端开发**
 
-* xxxxxxxxxxxxxxxxx
-* xxxxxxxxxxxxxxxxx
-* xxxxxxxxxxxxxxxxx
-* xxxxxxxxxxxxxxxxx
+* 产品需求评审，估期，积极主动推动项目开发
+* 根据产品需求以及UI设计，使用React（主）按时且高质量完成pc端和移动端（公众号）开发
+* 封装公共业务组件（基于Antd），提高开发效率，参与项目优化，提升用户体验
+* 与后端开发者配合完成接口联调，将数据渲染到界面上
 
-::: tip
+::: info
 ## 项目经验
 :::
 
-**2019.06-至今                   xxxxxxxxxxxxxxxxx          高级前端开发**
+**2019.06-至今                   杭州博彦信息技术有限公司(外包阿里)           高级前端开发**
 
-xxxx：xxxxxxxxxxxxxxxxx
-
+硬件决策平台：新品引入决策平台，主要负责新机型、新部件的立项以及引入测试的评审和实施<br />
 技术栈：React、Redux、Redux-thunk、Webpack
 
 #### 工作内容
 
-* xxxxxxxxxxxxxxxxx
-* xxxxxxxxxxxxxxxxx
-* xxxxxxxxxxxxxxxxx
-* xxxxxxxxxxxxxxxxx
+* 参与项目需求研讨、技术选型、把控开发进度及风险
+* 开发硬件标准基线并在硬件新品引入审批流程中使用
+* 抽象公共组件并进行封装，减少重复性工作，提高开发效率
+* 供应链拓扑图形开发并实现交互共能
 
 #### 工作难点
 
-* 组件开发：xxxxxxxxxxxxxxxxx
+* 组件开发：使用G6自定义节点和边实现拓扑图形，并实现筛选等交互功能
 
-**2018.06-2019.06                       xxxxxxxxxxxxxxxxx              前端开发**
+**2018.06-2019.06             北京辰森世纪科技有限股份公司                       前端开发**
 
-xxxx：xxxxxxxxxxxxxxxxx
-
+聚合外卖：主要解决两大外卖平台、以及门店管理系统独立运行，造成商家维护菜品成本高、营业数据分散，需要手动整合等问题<br />
 技术栈：React、Dva、Antd、Webpack
 
 #### 工作内容
-* xxxxxxxxxxxxxxxxx
-* xxxxxxxxxxxxxxxxx
-* xxxxxxxxxxxxxxxxx
-* xxxxxxxxxxxxxxxxx
+
+* 负责首页、财务报表、运营报表、监控中心，菜谱关联5大模块开发
+* 基于antd封装业务组件，提高开发效率，提升用户体验
+* 提前完成并上线且稳定运行
 
 #### 工作难点
-* xxxxxxxxxxxxxxxxx
 
-::: tip
+* 通过调研拖动组件，实现了拖动菜品进行关联的功能
+
+::: info
 ## 自我评价
 :::
-xxxxxxxxxxxxxxxxx
+
+工作认真负责，主动承担责任，较强的自驱能力、学习能力，和团队合作精神。对技术的认知：技术的价值体现在实现业务价值。

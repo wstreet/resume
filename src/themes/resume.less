@@ -19,19 +19,27 @@ h1 {
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 400;
 }
 
-
 h3 {
-  font-size: 14px;
+  font-size: 20px;
 }
 
-h3, h4, p, ol, ul {
-  margin-left: 20px;
-  font-size: 14px;
+h4 {
+  font-size: 16px;
 }
+
+h5, h6 {
+  font-size: 15px;
+}
+
+p, div, ol, ul {
+  font-size: 14px;
+  margin: 0px;
+}
+
 
 a {
   color: @linkColor;
@@ -59,14 +67,19 @@ li {
 
 
 // custom block
-.custom-block.danger, .custom-block.tip, .custom-block.warning {
-  padding: .1rem 1.5rem;
+.custom-block.danger, .custom-block.info, .custom-block.tip, .custom-block.warning {
+  padding: .1rem .5rem;
   border-left-width: .5rem;
   border-left-style: solid;
-  margin: 1rem 0;
+  margin: .5rem 0;
 }
 
 .custom-block {
+  &.info {
+    background-color: @infoBgColor;
+    border-color: @infoBdColor ;
+    color: @infoColor;
+  }
   &.tip {
     background-color: @tipBgColor;
     border-color: @tipBdColor ;
@@ -88,7 +101,6 @@ li {
       flex-wrap: wrap;
       justify-content: space-between;
       li {
-        // flex: auto;
         list-style: none;
         width: 50%;
       }
